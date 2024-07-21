@@ -1,0 +1,53 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+    padding:40px;
+}
+.mail{
+    background-image: url(grey-19.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left:50%;
+    top:40%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    padding:10px;
+    border-radius:10px;
+    box-shadow: 0 0 10px rgb(19, 22, 22); 
+    width:300px;
+    height:200px;
+    border-style:groove;
+    opacity:0.8;
+    text-align: center;
+   }
+.mail input[type="email"] {
+    padding:10px;
+    border:1px solid #4a99c0;
+    border-bottom:solid;
+    height:20px;
+    background:transparent;
+    margin:30px;
+    color:azure;
+}
+.Continue button{
+    padding:10px;
+    background-color:#007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left:10px;
+    border:10px;
+    }
+.Continue button:hover {
+    background-color: #007bff;
+}
+.mail{
+    display:flex;
+    flex-direction:column;
+}
+.Continue a{
+    text-decoration:none;
+}

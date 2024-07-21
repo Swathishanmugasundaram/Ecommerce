@@ -1,0 +1,100 @@
+body{
+    background:url(img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    }
+.container{
+    background-color:aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgb(22, 1, 1);
+    width: 300px;
+    opacity:0.8;
+}
+.registration{
+    display: flex;
+    flex-direction:column;
+    background:transparent;
+    /* backdrop-filter: blur(5px); */
+    color:#131212;
+}
+.registration h1 {
+    margin-bottom: 20px;
+    text-align:center;
+}
+.registration label {
+    margin-bottom:3px;
+    font-weight: 100px;
+  
+    
+}
+.registration input[type="text"],
+.registration input[type="email"],
+.registration input[type="password"] {
+    padding:3px;
+    margin-bottom:1px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height:30px;
+    background:transparent;
+    border:none;
+    border-bottom:outset;
+    
+}
+.registration .terms {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.registration button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 85px;
+    border:20px;
+  }
+
+.registration button:hover {
+    background-color: #007bff;
+}
+
+.registration.login-link {
+    text-align: center;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.registration.login-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.registration.login-link a:hover {
+    text-decoration: underline;
+}
+.login-link p a{
+    color:#0000ff;
+}
+.img img{
+        border-style:solid;
+        border-radius:50%;
+        height:70px;
+        width:70px;
+        position: absolute;
+        margin-left:110px;
+        margin-top:-60px;
+        
+}
